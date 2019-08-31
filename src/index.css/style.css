@@ -1,0 +1,31 @@
+html, body{
+  margin: 2000px 2000px 2000px 2000;
+padding : 100px 50px 50px 100px;
+
+background-color:#E6B0AA       ;
+
+}
+
+
+
+h1 {
+  color :black;
+
+  font-family:Didot,serif
+}
+body { 
+    background-color :#E6B0AA  ;
+    color :#E6B0AA;
+
+    border:5px grey solid;
+    border-right: 8px gray solid;
+    border-left: 8px grey solid;
+    border-top: 8px grey solid;
+    border-bottom: 8px gray solid;
+
+
+
+
+  }
+  
+ 

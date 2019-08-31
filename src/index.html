@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title></title>
+    <script src="js/person.js"></script>
+    <script src="js/bmi_calculator.js"></script>
+    <link rel="stylesheet" href = "./index.css/style.css">
+    
+</head>
+
+<body>
+
+ <h1 >BMI_Calculater</h1>
+    
+ <form id="calculate">
+        <div id="metric-inputs">
+            <input type="text" id="weight-in-kgs" placeholder="Weight">
+            <input type="text" id="height-in-cm" placeholder="Height">
+        </div>
+
+        <button type="submit" value="Calculate"> Calculate </button>
+    </form>
+    <div>
+        <span id="display_value"></span>
+        <span id="display_message"></span>
+    </div>
+    <div id="imperial-inputs">
+      <input type="text" id="weight-in-lbs" placeholder="Weight">
+      <input type="text" id="height-in-in" placeholder="Height">
+  </div>
+
+  <div class="form-group row">
+    <div class="col-auto">
+      <select class="form-control" id="my_select">
+        <option value="metric">Metric System</option>
+        <option value="imperial">Imperial System</option>
+      </select>
+    </div>
+   </div>
+ </div>
+</body>
+
+</html>
